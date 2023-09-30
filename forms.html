@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-    <div>
-        <form action="">
-                <label for=""> First Name:</label> <br>
-                <input type="text" placeholder="First Name"> <br>
-                <label for=""> Last name:</label> <br>
-                <input type="text" placeholder="Last Name"> <br>
-                <div><label for="">Email: </label> <br></div>
-                <input type="email" placeholder="joedoe@domain.com"> <br> <br>
-               <div> <label for=""> Your Questions:</label> <br> <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Write your questions Here"></textarea></div> <br>
-                <button type="submit"> submit</button>
+    <div class="form">
+        <form>
+            <label for="">Email: </label>
+            <input id="email" type="email" placeholder="joedoe@domain.com"> <br>
+            <label for="username"> Username:</label> <br>
+            <input id="username" type="text" placeholder="username"> <br>
+            <label for="password">Password:</label> <br>
+            <input id="password" type="password" placeholder="password"> <br>
+            <label for="confirmpassword">Confirm Password:</label> <br>
+            <input id="confirmpassword" type="password" placeholder="password"> <br>
+            <div>
+                <br />
+                <label for=""> Your Questions:</label><br />
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write your questions Here"></textarea>
+            </div> <br>
+            <button id="submit" class="btn"> submit</button>
         </form>
     </div>
+    <script src="form.js"></script>
 </body>
 </html>
